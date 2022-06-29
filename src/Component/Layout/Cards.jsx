@@ -9,7 +9,6 @@ const Cards = ({id, name, isBookmark, handleDelete, handleBookmark}) => {
 
     return (
         <Card elevation={2} sx={{minWidth:250}}>
-
             <CardHeader
                 action={
                     <IconButton onClick={handleBookmark.bind(null, id)}>

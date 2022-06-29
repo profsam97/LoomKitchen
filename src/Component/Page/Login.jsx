@@ -14,8 +14,7 @@ import Container from '@mui/material/Container';
 // import { ThemeProvider, createTheme } from '@mui/material/styles';
 import {useEffect, useState} from "react";
 import {createTheme, ThemeProvider} from "@mui/material";
-import axios from "axios";
-import {useGetAllUsers} from "../../Hooks";
+import {useGetAllUsers} from "../../Hooks/Index";
 import {useNavigate} from "react-router";
 
 const theme = createTheme();
